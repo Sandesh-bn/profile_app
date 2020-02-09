@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #f9f9f9;
+}
+.container-box{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.u-item{
+    background: #fff;
+    margin: 60px 0;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 5px 18px -2px #dbdbdb;
+    position: relative;
+}
+
+.top{
+    display: flex;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 20px;
+}
+
+.avatar img{
+    width: 100%;
+}
+
+.avatar+div{
+    flex-grow: 1;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.top h2{
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.top hr{
+    width: 70%;
+    margin: 10px auto;
+    border: none;
+    height: 0;
+    box-shadow: 0 0px 0px 1px #cecece;
+}
+
+.read .not{
+    display: none;
+}
+
+.read .top input{
+    visibility: hidden;
+}
+
+.read .top label:first-child{
+    color: #11c407;
+}
+
+.read .top label:last-child{
+    color: red;
+}
+
+
+.top .balance{
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: right;
+    color: #00a3af;
+    margin-top: 20px;
+}
+
+.top .balance>small{
+
+    color: #333333;
+    font-size: .9em;
+}
+
+.info{
+    width: 60%;
+}
+
+.info>div{
+    display: flex;
+    margin: 10px 0;
+    /*width: 50%;*/
+}
+.info>div>div{
+    margin: 0 5px;
+}
+
+.info-box{
+    display: flex;
+    margin: 30px 0;
+}
+
+.tags{
+    width: 40%;
+}
+
+.tags>div{
+    margin: 10px 0;
+}
+
+.tags p{
+    margin: 10px 0;
+}
+
+.fa-copy, .fa-edit, .fa-trash-alt{
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    color: #777;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.fa-edit{
+    right: 90px;
+}
+.fa-trash-alt {
+    right: 25px;    
+}
